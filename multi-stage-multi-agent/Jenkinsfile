@@ -7,7 +7,7 @@ pipeline {
       }
       steps {
         sh 'mvn --version'
-        sh 'install mvn'
+        sh 'install mvn /tmp'
       }
     }
     stage('Front-end') {
